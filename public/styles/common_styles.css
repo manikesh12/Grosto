@@ -1,0 +1,28 @@
+/* Importing CSS fonts */
+/* Roboto Thin */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap"); */
+/* Roboto Light */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"); */
+/* Roboto Medium */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap"); */
+/* Roboto Regular */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"); */
+/* Roboto Bold */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap");
+/* CSS Reset */
+.no-events {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+.hidden {
+  display: none;
+}
+*::selection {
+  background-color: rgba(101, 198, 255, 0.561);
+}

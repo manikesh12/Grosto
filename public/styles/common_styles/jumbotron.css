@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #42ff8a;
+  --temp-color-1: #f4f4f4;
+  --temp-color-2: #b3b3b3;
+  --temp-color-3: #eeeeee;
+  --temp-color-4: #777777;
+}
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #2aff95;
+}
+.jumbotron__main-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.jumbo-nav-container {
+  margin: 4rem 0 0 0;
+}
+.jumbo-nav__link {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #f4f4f4;
+}
+.jumbo-nav__link:hover {
+  background-color: var(--temp-color-2);
+}
+.spacer {
+  aspect-ratio: 2/1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer-1 {
+  background-image: url("/media/web components/stacked-waves-haikei-2.svg");
+  height: 15rem;
+}

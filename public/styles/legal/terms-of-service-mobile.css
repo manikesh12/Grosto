@@ -1,0 +1,24 @@
+.terms-of-service-content p {
+  min-width: 90%;
+  max-width: 75%;
+}
+.terms-of-service-content {
+  padding-top: 0;
+}
+/* -----------------FOOTER--------------- */
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: initial;
+  row-gap: 1rem;
+  padding: 2rem 2rem 0 2rem;
+}
+.footer-element {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.copyrights {
+  grid-area: 3/1/4/3;
+  margin: 0;
+}

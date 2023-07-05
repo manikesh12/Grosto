@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grosto</title>
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common_styles.css" />
+    <!-- Navigation Stuff -->
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/nav_styles.css" />
+    <script src="/scripts/common scripts/common_components.js" defer></script>
+    <!-- Current Page Stuff -->
+    <link rel="stylesheet" href="/styles/common_styles/jumbotron.css" />
+    <link rel="stylesheet" href="/styles/categories/categories.css" />
+    <script src="/scripts/categories/categories.js" defer></script>
+  </head>
+  <body>
+    <nav id="categories"></nav>
+    <section class="jumbotron">
+      <h1 class="jumbotron__main-title">Grosto Categories</h1>
+    </section>
+    <div class="spacer layer-1"></div>
+    <main>
+      <div class="categories-section">
+        <div class="category-card" data-category="vegetables">
+          <picture class="category-card__pic-tag">
+            <img
+              src="../media/grocery items pics/Brocoli--medium.jpg"
+              alt="An image of a vegetable"
+              class="category-card__pic no-events"
+            />
+          </picture>
+          <h2 class="category-card__name no-events">Vegetables</h2>
+        </div>
+        <div class="category-card" data-category="fruits">
+          <picture class="category-card__pic-tag">
+            <img
+              src="../media/fruits/apple--med.jpg"
+              alt="Image of an Apple"
+              class="category-card__pic no-events"
+            />
+          </picture>
+          <h2 class="category-card__name no-events">Fruits</h2>
+        </div>
+        <div class="category-card" data-category="grains">
+          <picture class="category-card__pic-tag">
+            <img
+              src="../media/grains/rice--med.webp"
+              alt="An image of rice"
+              class="category-card__pic no-events"
+            />
+          </picture>
+          <h2 class="category-card__name no-events">Grains</h2>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

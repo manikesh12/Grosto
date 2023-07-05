@@ -1,0 +1,79 @@
+:root {
+  --rowgap: 4rem;
+  --cat-width: 30rem;
+  --cat-height: 40rem;
+  --cat-card-border-radius-outer: 1rem;
+  --cat-card-border-width: 0.4rem;
+  --cat-card-secondary-color: #333333;
+  --cat-card-border-radius-inner: calc(
+    var(--cat-card-border-radius-outer) - (var(--cat-card-border-width))
+  );
+  /* --cat-card-secondary-color: #1a1a1a; */
+}
+.categories-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--cat-width), 1fr));
+  gap: var(--rowgap);
+  justify-items: center;
+  margin-top: 3rem;
+  padding: var(--rowgap) calc(var(--rowgap) * 0.5);
+}
+.category-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: var(--cat-width); */
+  border: var(--cat-card-border-width) solid var(--cat-card-secondary-color);
+  border-radius: var(--cat-card-border-radius-outer);
+  /* background-color: var(--cat-card-secondary-color); */
+  transform: scale(100%);
+  transition: transform 0.2s ease-in-out;
+}
+.category-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: var(--cat-card-border-radius-outer);
+  width: 100%;
+  height: 100%;
+  box-shadow: hsla(240, 5%, 41%, 0.2) 0px 0px 30px 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.category-card:hover::after {
+  opacity: 1;
+}
+.category-card:hover {
+  cursor: pointer;
+  transform: scale(105%);
+  /* transition: box-shadow 2s ease-in; */
+  /* transition: transform 200ms ease-in; */
+  /* opacity: 70%; */
+  /* background-color: #fafafa; */
+}
+.category-card__pic-tag {
+  width: var(--cat-width);
+  height: var(--cat-width);
+}
+.category-card__pic {
+  width: var(--cat-width);
+  /* height: var(--cat-width); */
+  border-radius: var(--cat-card-border-radius-inner)
+    var(--cat-card-border-radius-inner) 0 0;
+  /* border-radius: 0.5rem 0.5rem 0 0; */
+  /* border: solid 0.4rem #272727; */
+  object-fit: cover;
+}
+.category-card__name {
+  /* display: block; */
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 0 0 var(--cat-card-border-radius-inner)
+    var(--cat-card-border-radius-inner);
+  border: 0;
+  background-color: hsl(135, 100%, 68%);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}

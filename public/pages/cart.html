@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GROSTO CART</title>
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common_styles.css" />
+    <!-- Navigation Stuff -->
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/nav_styles.css" />
+    <script src="/scripts/common scripts/common_components.js" defer></script>
+    <!-- Current Page Stuff -->
+    <link rel="stylesheet" href="/styles/common_styles/jumbotron.css" />
+    <link rel="stylesheet" href="/styles/cart.css" />
+    <script type="module" src="/scripts/cart/cart.js"></script>
+    <script type="module" src="/scripts/cart/fillCartContent.js"></script>
+  </head>
+  <body>
+    <nav id="cart"></nav>
+    <section class="jumbotron">
+      <h1 class="jumbotron__main-title">Grosto Cart</h1>
+    </section>
+    <main>
+      <section class="products-list">
+        <div class="cart-product-item">
+          <span class="product-info__part">Image</span>
+          <span class="product-info__part">Name</span>
+          <span class="product-info__part">Rate Value</span>
+          <span class="product-info__part">Quantity</span>
+          <span class="product-info__part amount">Amount</span>
+        </div>
+      </section>
+      <section class="cart-summary">
+        <h3 class="cart-sum__title">Cart Summary</h3>
+        <table class="cart-sum__table">
+          <tr class="row">
+            <th class="amount-type">Number of Items:</th>
+            <td class="cart-amount__text"><span id="numItems">0</span></td>
+          </tr>
+          <tr class="row">
+            <th class="amount-type">Subtotal:</th>
+            <td class="cart-amount__text">
+              &#8377;<span id="subtotal">0</span>
+            </td>
+          </tr>
+          <tr class="row">
+            <th class="amount-type">Tax (GST):</th>
+            <td class="cart-amount__text">&#8377;<span id="tax">0</span></td>
+          </tr>
+          <tr class="row">
+            <th class="amount-type">Total:</th>
+            <th class="cart-amount__text">
+              &#8377;<span id="totalAmount">0</span>
+            </th>
+          </tr>
+          <tr class="row">
+            <td class="cart-end__wrapper" colspan="2">
+              <button id="checkout-btn" class="cart-end__btn">Checkout</button>
+            </td>
+          </tr>
+          <tr class="row">
+            <td class="cart-end__wrapper" colspan="2">
+              <button id="backshopping-btn" class="cart-end__btn">
+                Back to Shopping
+              </button>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

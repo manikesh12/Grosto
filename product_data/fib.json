@@ -1,0 +1,265 @@
+[
+  {
+    "product_id": 123,
+    "product_name": "Broccoli",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "treelike", "green", "spherical"]
+  },
+  {
+    "product_id": 124,
+    "product_name": "Carrot",
+    "product_description": "freshy freshy carrots",
+    "product_picture_path": "/media/grocery items pics/carrot--large_01.jpg",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 50.0
+    },
+    "quantity": 800,
+    "product_tags": ["vegetable", "treelike", "orange", "long" ]
+  },
+  {
+    "product_id": 125,
+    "product_name": "Beans",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable" ,"seeds", "green", "short"]
+  },
+  {
+    "product_id": 126,
+    "product_name": "Beetroot",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "red", "spherical"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "cabbage",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "leaves", "green", "spherical"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Capsicum",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "green"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Cauliflower",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "flowerlike", "white"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Chilli peppers",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "green","red"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Cucumber",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "green", "long"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Brinjal",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "green", "voilet", "oval"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Garlic",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "treelike", "green", "spherical"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Ginger",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "treelike", "green", "spherical"]
+  },
+  {
+    "product_id": 123,
+    "product_name": "onions",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "treelike", "green", "spherical"]
+  },
+ //FRuits
+  {
+    "product_id": 123,
+    "product_name": "Apple",
+    "product_description": "freshy freshy fruits",
+    "product_picture_path": "./images/",
+    "product_aisle": "Fruits",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Fruits", "red", "green", "spherical"]
+  },
+    {
+    "product_id": 123,
+    "product_name": "Mango",
+    "product_description": "freshy freshy fruits",
+    "product_picture_path": "./images/",
+    "product_aisle": "Fruits",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Fruits", "red", "green", "spherical"]
+  },
+    {
+    "product_id": 123,
+    "product_name": "Papaya",
+    "product_description": "freshy freshy fruits",
+    "product_picture_path": "./images/",
+    "product_aisle": "Fruits",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Fruits", "red", "green", "spherical"]
+  },
+    {
+    "product_id": 123,
+    "product_name": "Banana",
+    "product_description": "freshy freshy fruits",
+    "product_picture_path": "./images/",
+    "product_aisle": "Fruits",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Fruits", "red", "green", "spherical"]
+  },
+    {
+    "product_id": 123,
+    "product_name": "Grapes",
+    "product_description": "freshy freshy fruits",
+    "product_picture_path": "./images/",
+    "product_aisle": "Fruits",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Fruits", "red", "green", "spherical"]
+  },
+  //diary
+    {
+    "product_id": 123,
+    "product_name": "Milk",
+    "product_description": "freshy freshy diary products",
+    "product_picture_path": "./images/",
+    "product_aisle": "Diary",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Diary", "white",]
+  },
+  {
+    "product_id": 123,
+    "product_name": "Curd",
+    "product_description": "freshy freshy diary products",
+    "product_picture_path": "./images/",
+    "product_aisle": "diary",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["Diary", "white",]
+  },
+  
+]

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:-moz-focusring {
+  outline: none;
+}
+*::-moz-focus-inner {
+  outline: none;
+}
+html {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+.anchor {
+  text-decoration: none;
+  color: #000000;
+}
+strong {
+  font-weight: inherit;
+}

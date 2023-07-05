@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{Porduct_name}</title>
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common_styles.css" />
+    <!-- Navigation Stuff -->
+    <link rel="stylesheet" href="/styles/nav_styles.css" />
+    <script src="/scripts/common scripts/common_components.js" defer></script>
+    <!-- Current Page Stuff -->
+    <link rel="stylesheet" href="/styles/product_page.css" />
+    <script src="/scripts/product_page.js" defer></script>
+  </head>
+  <body>
+    <nav></nav>
+    <section class="jumbotron">
+      <span id="jumbotron__title" class="product_name">{PRODUCT_NAME}</span>
+    </section>
+    <aside id="user_nav">
+      <!-- <a class="user-nav__link" href="/">Home</a><span class="user-nav__arrow"> > </span
+      ><a href="#">Some</a> -->
+    </aside>
+    <main>
+      <section class="product-img__section">
+        <picture>
+          <img
+            src="../media/_organize/andrey-konstantinov-WBqlmXm9aDA-unsplash.jpg"
+            alt=""
+            class="product_image"
+          />
+        </picture>
+        <h2 id="product-caption" class="product_name">{PRODUCT_NAME}</h2>
+      </section>
+      <section class="product_info">
+        <div class="product_info_part basic_details">
+          <h6 class="basic_details_title">Basic Details</h6>
+          <!-- <p class="product_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            neque quibusdam at deleniti magnam facilis placeat sint quam velit
+            corrupti voluptate incidunt ad, laudantium libero vitae laborum
+            ratione totam! Saepe.
+          </p> -->
+          <p class="product_description">{PRODUCT_DESCRIPTION}</p>
+        </div>
+        <div class="product_info_part">
+          <span class="price"
+            >Price Per <span id="unit">Gram</span>:
+            <span id="price-per-gram"></span
+          ></span>
+        </div>
+        <div class="product_info_part quantity-wrapper">
+          <span id="quantity-text"
+            >Quantity:&nbsp;<span id="confirmed-quantity">0</span></span
+          >
+          <!-- <input
+            type="number"
+            id="noOfGrams"
+            class="input-grams"
+            placeholder="100"
+            name="userGrams"
+          /> -->
+          <input
+            type="range"
+            name="userGramsSlider"
+            id="noOfGrams"
+            class="grams-slider"
+            min="100"
+            max="1000"
+            value="100"
+            step="100"
+          />
+          <button class="base-btn input-switch-btn">
+            Enter a custom value
+          </button>
+        </div>
+        <div class="product_info_part">
+          <span>Final Price: &#8377;</span><span id="calculate_price">0</span>
+        </div>
+        <div class="product_info_part purchase-btns">
+          <button id="add_cart_btn" class="purchase_btn" type="submit">
+            Add to Cart
+          </button>
+          <button id="buy_now_btn" class="purchase_btn" type="submit">
+            Buy Now
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

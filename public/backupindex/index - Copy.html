@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grosto</title>
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/common_styles.css" />
+    <!-- Navigation Stuff -->
+    <link rel="stylesheet" href="/styles/nav_styles.css" />
+    <script src="/scripts/common scripts/common_components.js" defer></script>
+    <!-- Current Page Stuff -->
+    <link rel="stylesheet" href="/styles/home/style.css" />
+    <script src="/scripts/home/script.js" defer></script>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="home"></nav>
+    <!-- Main Content -->
+    <main>
+      <!-- Filters -->
+      <aside id="filters">
+        <h2 class="section-title filters-title">Filters</h2>
+        <form action="">
+          <div class="filter-group filter-group__input-textbox">
+            <input
+              id="filter-search"
+              class="input-textbox"
+              type="text"
+              name="filter-search"
+              placeholder="Search Product"
+            />
+          </div>
+          <div class="filter-group filter-types">
+            <h3 class="filter-type-title">Filter Type</h3>
+            <button
+              class="filter-type-dropdown"
+              name="filter-type-color"
+              id="filter-type-color"
+            >
+              select an option
+            </button>
+            <div class="filter-type-dropdown__content">
+              <a href="#">By Popularity</a>
+              <a href="#">By Color</a>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-types">
+              <div class="by-color">
+                <h3 class="filter-type-title">By Popularity</h3>
+                <select name="filter-type-color" id="filter-type-color">
+                  <!-- <optgroup label="By Color"> -->
+                  <option selected value>-- select an option --</option>
+                  <!-- <option label=" "></option> -->
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <!-- </optgroup> -->
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-types">
+              <div class="by-color">
+                <h3 class="filter-type-title">By Color</h3>
+                <select name="filter-type-color" id="filter-type-color">
+                  <!-- <optgroup label="By Color"> -->
+                  <option selected value>-- select an option --</option>
+                  <!-- <option label=" "></option> -->
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <!-- </optgroup> -->
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="filter-group">
+            <input class="submit-btn" type="submit" value="Search" />
+          </div>
+        </form>
+      </aside>
+      <!-- Products -->
+      <section id="product-results"></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

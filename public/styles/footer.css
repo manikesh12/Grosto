@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,
+textarea {
+  outline: 0;
+  border: 0;
+}
+html {
+  font-size: 10px;
+  --primary-color: #0d1b2a;
+  --primary-support: #1b263b;
+  --fun-color-1: #fed766;
+  --fun-color-2: #009fb7;
+  --fun-color-3: #272727;
+  --font-color-1: #fdfdfc;
+}
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
+.anchor {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+::selection {
+  background-color: #65c6ff8f;
+}
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+  user-select: none;
+}
+footer {
+  background-color: #1a1a1a;
+  color: #fafafa;
+}
+footer a {
+  color: #fafafa !important;
+}
+.footer-main {
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-logo img {
+  padding-right: 3rem;
+  width: 12rem;
+}
+.footer-logo {
+  font: 800 4rem "Roboto", Arial, Helvetica, sans-serif;
+  margin-right: 2rem;
+}
+.footer-contact-information {
+  padding: 0 3rem;
+  border-left: 0.5rem solid #333;
+}
+.footer-contact-icon {
+  width: 2rem;
+  margin-right: 1rem;
+}
+.footer-contact-pin-icon {
+  width: 2.5rem;
+}
+.footer-list-item {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+.footer-list-item a:hover {
+  text-decoration: underline;
+}
+.footer-block-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.footer-block-1,
+.footer-block-2 {
+  margin-right: 3rem;
+  border-right: 0.5rem solid #333;
+  padding-right: 3rem;
+}
+.footer-block-3 {
+  display: flex;
+  align-items: center;
+}
+.footer-block-3 ul {
+  display: flex;
+  flex-direction: row;
+}
+.social-icon {
+  margin: 0 1rem;
+  width: 3rem;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  font: 1.4rem Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.terms-and-conditions:hover {
+  text-decoration: underline;
+}
+#local-time {
+  font: 1.4rem "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+@-moz-document url-prefix() {
+  html {
+    font-size: 10px;
+  }
+  .underline:hover::after {
+    border: 0.2rem solid red;
+  }
+}

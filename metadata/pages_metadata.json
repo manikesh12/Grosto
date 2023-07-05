@@ -1,0 +1,13 @@
+[
+  {
+    "page_ids": [
+      { "file_locations": ["/page components/navigation.html"] },
+      {
+        "/": "home",
+        "/pages/about_us.html": "about_us",
+        "/pages/create_account.html": "create_account",
+        "/pages/log_in.html": "log_in"
+      }
+    ]
+  }
+]

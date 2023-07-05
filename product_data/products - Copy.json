@@ -1,0 +1,28 @@
+[
+  {
+    "product_id": 123,
+    "product_name": "Broccoli",
+    "product_description": "freshy freshy vegetables",
+    "product_picture_path": "./images/",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 40.0
+    },
+    "quantity": 1250,
+    "product_tags": ["vegetable", "treelike", "green", "spherical", "produce"]
+  },
+  {
+    "product_id": 124,
+    "product_name": "Carrot",
+    "product_description": "freshy freshy carrots",
+    "product_picture_path": "/media/grocery items pics/carrot--large_01.jpg",
+    "product_aisle": "Vegetables",
+    "product_price_details": {
+      "unit_system": 0,
+      "price": 50.0
+    },
+    "quantity": 800,
+    "product_tags": ["vegetable", "treelike", "orange", "long", "produce"]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "quantity_system": [
+    {
+      "code": 0,
+      "quantity_name": "slider",
+      "values": [100, 200, 300, 400, 500, 750, 800, 1000],
+      "max_value": null
+    },
+    {
+      "code": 1,
+      "quantity_name": "incrementor",
+      "values": null,
+      "max_value": 999
+    }
+  ],
+  "unit_system": [
+    {
+      "code": 0,
+      "unit_name": "gram",
+      "plural": "grams",
+      "quantity_system": [0, 1]
+    },
+    {
+      "code": 1,
+      "unit_name": "unit",
+      "plural": "units",
+      "quantity_system": [1]
+    }
+  ]
+}

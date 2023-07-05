@@ -1,0 +1,6 @@
+{
+  "host_file": "/server/hostfile.json",
+  "products_list": "/product_data/products.json",
+  "categories_list": "/product_data/valid_categories.json",
+  "productids_list": "/product_data/valid_product_ids.json"
+}
